@@ -3,11 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Innovative SOAR solutions to streamline your cybersecurity operations.">
-    <meta name="keywords" content="SOAR, Cybersecurity, Automation, Incident Response">
-    <meta name="author" content="Your Company Name">
-    <title>SecureSOAR - Transforming Cybersecurity</title>
+    <meta name="description" content="SecureSOAR provides innovative SOAR solutions to streamline cybersecurity operations, automate incident response, and enhance SOC efficiency.">
+    <meta name="keywords" content="SOAR, Cybersecurity, Automation, Incident Response, Security Operations Center">
+    <meta name="author" content="SecureSOAR Team">
+    <!-- عنوان طولانی‌تر برای بهینه‌سازی -->
+    <title>SecureSOAR - Transforming Cybersecurity with Automation</title>
+    <!-- Open Graph Tags برای فیسبوک -->
+    <meta property="og:title" content="SecureSOAR - Transforming Cybersecurity with Automation">
+    <meta property="og:description" content="Innovative SOAR solutions to streamline your cybersecurity operations and enhance SOC efficiency.">
+    <meta property="og:url" content="https://securesoar.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://securesoar.com/soar.jpg">
+    <!-- Twitter (X) Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SecureSOAR - Transforming Cybersecurity with Automation">
+    <meta name="twitter:description" content="Innovative SOAR solutions to streamline your cybersecurity operations and enhance SOC efficiency.">
+    <meta name="twitter:image" content="https://securesoar.com/soar.jpg">
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://securesoar.com">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SecureSOAR",
+        "url": "https://securesoar.com",
+        "logo": "https://securesoar.com/soar.jpg",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-234-567-890",
+            "contactType": "Customer Service",
+            "email": "info@securesoar.com"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Cybersecurity Lane",
+            "addressLocality": "Tech City",
+            "addressRegion": "TC",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        }
+    }
+    </script>
     <style>
         body {
             margin: 0;
@@ -99,18 +148,24 @@
             background: #333;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px 0; /* بیشتر شده برای محتوای اضافی */
             margin-top: 20px;
         }
         footer p {
-            margin: 0;
+            margin: 5px 0;
+        }
+        /* بهینه‌سازی برای موبایل */
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 1.5rem; }
+            .hero p { font-size: 1rem; }
+            .card { width: 100%; }
         }
     </style>
 </head>
 <body>
     <header>
         <h1>SecureSOAR</h1>
-        <p>Streamline Your Cybersecurity Operations</p>
+        <p>Streamline Your Cybersecurity Operations with Automation</p>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -123,7 +178,8 @@
     </div>
     <section id="about" class="section">
         <h2>About SecureSOAR</h2>
-        <p>SecureSOAR is designed to enhance the efficiency of Security Operations Centers by automating repetitive tasks, improving incident response times, and ensuring comprehensive threat management.</p>
+        <p>SecureSOAR is designed to enhance the efficiency of Security Operations Centers by automating repetitive tasks, improving incident response times, and ensuring comprehensive threat management. Our platform integrates seamlessly with existing tools to provide a unified cybersecurity experience.</p>
+        <p>With a focus on innovation, SecureSOAR helps organizations stay ahead of threats by leveraging advanced automation and analytics.</p>
     </section>
     <section id="features" class="section">
         <h2>Key Features</h2>
@@ -146,10 +202,30 @@
         <h2>Contact Us</h2>
         <p>Ready to transform your cybersecurity operations? Get in touch with us today!</p>
         <p>Email: <a href="mailto:info@securesoar.com">info@securesoar.com</a></p>
-        <p>Phone: +123-456-7890</p>
+        <p>Phone: +1-234-567-890</p>
+        <p>Address: 123 Cybersecurity Lane, Tech City, TC 12345, USA</p>
     </section>
     <footer>
-        <p>&copy; 2025 SecureSOAR. All rights reserved.</p>
+        <p>© 2025 SecureSOAR. All rights reserved.</p>
+        <p><a href="https://facebook.com/securesoar" target="_blank">Facebook</a> | 
+           <a href="https://x.com/securesoar" target="_blank">X</a> | 
+           <a href="https://instagram.com/securesoar" target="_blank">Instagram</a> | 
+           <a href="https://linkedin.com/company/securesoar" target="_blank">LinkedIn</a> | 
+           <a href="https://youtube.com/@securesoar" target="_blank">YouTube</a></p>
     </footer>
+    <!-- Facebook Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID_HERE');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"/></noscript>
 </body>
 </html>
